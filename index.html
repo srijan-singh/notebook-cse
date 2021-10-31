@@ -3,17 +3,33 @@
         <title>
             Notebook CSE
         </title>
+        <!--CSS-->
+        <link rel="stylesheet" href="style/style.css">
+        <!--Script-->
+        <script src="script/script.js"></script>
     </head>
     <body>
-        <div id ="Sem3">
-        </div>
-        <div id ="Sem4">
-        </div>
-        <div id ="Sem5">
-        </div>
-        <div id ="Sem6">
-            <h1>6</h1>
-            <button onclick="document.location='Semester 6/sem6home.html'">Semester 6</button>
-        </div>
-    </body>
+      <!--Header-->
+      <iframe src="assets/header.html" style="border:none; height:55%; width:100%;"></iframe>
+          <div class="row">
+            <!--Left Column-->
+            <div class="leftcolumn">  
+              <!--Semester 4-->            
+              <iframe src="Semester 4/sem4index.html" style="border:none; height:90%; width:100%;"></iframe>
+              <!--Semester 6-->
+              <iframe src="Semester 6/sem6index.html" style="border:none; height:90%; width:100%;"></iframe>              
+            </div>
+            <!--Right Column-->
+            <div class="rightcolumn">
+              <!--About Me-->
+              <iframe src="assets/about_me.html" style="border:none; width: 100%; height: 360px;"></iframe>
+              <!--Other Projects-->
+              <iframe src="assets/other_project.html" style="border:none; width: 100%; height: 450px;"></iframe>
+              <!--Follow Me-->
+              <iframe src="assets/follow_me.html" style="border:none; width: 100%; height: 200px;"></iframe>
+          </div>
+          </div>
+          <!--Footer-->
+          <iframe src="assets/footer.html" style="border:none; height: 160px;; width:100%;"></iframe>          
+          </body>        
 </html>
