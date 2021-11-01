@@ -134,20 +134,24 @@
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media only screen and (max-width: 640px){
 
+    .header h1{
+      font-size: 28px;
+    }
+
     .responsive-header{
       height: 24%;
     }
 
     .responsive-nav-bar{
-      height: 12%; 
+      height: 10%; 
     }
 
     .responsive-left-card{
-      height: 70%;
+      height: 90%;
     }
 
     .responsive-right-card{
-      height: 50%;
+      height: 55%;
     }
 
     .leftcolumn, .rightcolumn {   
