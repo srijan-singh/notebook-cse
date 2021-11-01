@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    background: #e3edfd;
+  }
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    padding: 10px;
+    background-color: #4285F4;
+    border-radius: 25px;
+    color: white;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #d0e1fc;
+    border-radius: 25px;
+    color: black;
+  }

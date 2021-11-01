@@ -47,33 +47,35 @@
   }
   
   .header h1 {
-    font-size: 50px;
+    font-size: 35px;
     color: #4285F4;
   }
-  
-  /* Style the top navigation bar */
-  .topnav {
-    overflow: hidden;
-    padding: 10px;
-    background-color: #4285F4;
-    border-radius: 25px;
-    color: white;
+
+  .responsive-header{
+    border:none;
+    position: relative;
+    width: 100%;
+    height: 28%;
   }
-  
-  /* Style the topnav links */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+
+  .responsive-nav-bar{ 
+    border: none;
+    position: relative;
+    width: 100%;
+    height: 15%;     
   }
-  
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: #d0e1fc;
-    color: black;
+
+  .responsive-left-card{
+    border:none;
+    position: relative;
+    width:100%;
+    height:90%;
+  }
+
+  .responsive-right-card{
+    border:none; 
+    width: 100%; 
+    height: 60%;
   }
   
   /* Create two unequal columns that floats next to each other */
@@ -122,20 +124,37 @@
     color: white;
     border-radius: 100px;
   }
+
+  .responsive-footer{
+    border:none; 
+    width:100%;
+    height: 27%; 
+  }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
+  @media only screen and (max-width: 640px){
+
+    .responsive-header{
+      height: 24%;
+    }
+
+    .responsive-nav-bar{
+      height: 12%; 
+    }
+
+    .responsive-left-card{
+      height: 70%;
+    }
+
+    .responsive-right-card{
+      height: 50%;
+    }
+
     .leftcolumn, .rightcolumn {   
       width: 100%;
       padding: 0;
     }
+
   }
   
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .topnav a {
-      float: none;
-      width: 100%;
-    }
-  }
   
