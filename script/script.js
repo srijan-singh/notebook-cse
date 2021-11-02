@@ -30,7 +30,3 @@ function ShowHideDiv(getCode) {
     var Sub5Pract = document.getElementById("Sub5Pract");
     Sub5Pract.style.display = getCode.value == "Sub5Pract" ? "block" : "none";
 }
-
-
-
-

@@ -1,0 +1,27 @@
+h1{
+  color: #4285F4;
+}
+
+.pdf{
+  width: 640px;
+  height: 480px;
+}
+
+@media only screen and (max-width: 721px){
+  .pdf{
+    width: inherit;
+  }
+}
+
+
+button {
+    background-color: #4285F4;
+    border: 2;
+    border-color:white;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 8px 6px;
+    margin : 6px;
+    color: white;
+    cursor: pointer;
+  }

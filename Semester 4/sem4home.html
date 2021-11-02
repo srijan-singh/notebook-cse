@@ -1,104 +1,133 @@
 <html>
     <head>
         <title>
-            Semester 0
+            Semester 4
         </title>
-        <script src="JScript/script.js"></script>
+        <link rel="icon" type="image/png" href="../resources/favicon.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../style/style.css">
+        <link rel="stylesheet" href="../style/button.css">
+        <script src="../script/script.js"></script>
     </head>
     <body>
-        <center>
 
-        <div id="Sub1">
-            <div id="Sub1Syllabus">
-                <h1>Sub1 Syllabus</h1>
-                <input onclick="ShowHideDiv(this)" type="button" value="Sub1Theory" />
-                <input onclick="ShowHideDiv(this)" type="button" value="Sub1Pract" />
-                <input onclick="ShowHideDiv(this)" type="button" value="Hide" />
-                
-                <div id="Sub1Theory" style="display: none;">
-                    <h1>Sub1 Theory</h1>    
-                    <iframe src="Sub1TheoryLink"  width="640" height="480" allow="autoplay"></iframe>
-                </div>
-                <div id="Sub1Pract" style="display: none;">
-                    <h1>Sub1 Practical</h1>    
-                    <iframe src="Sub1PractLink" width="640" height="480" allow="autoplay"></iframe>
+        <!--Header-->
+      <iframe class="responsive-header" src="../assets/header.html"></iframe>
+      <iframe class="responsive-nav-bar" src="../assets/nav_bar.html"></iframe>
+
+      <div class="row">
+        <div class="leftcolumn">
+            <div id="Sub1" class="card">
+                <div id="Sub1Syllabus">
+                    <h1>Sub1 Syllabus</h1>
+                    <button onclick="ShowHideDiv(this)" value="Sub1Theory">Theory</button>
+                    <button onclick="ShowHideDiv(this)" value="Sub1Pract">Practical</button>
+                    <button onclick="ShowHideDiv(this)" value="Hide">Hide</button>
+                    
+                    <div id="Sub1Theory" style="display: none; width: inherit;">
+                        <h1>Theory</h1>    
+                        <iframe src="https://drive.google.com/file/d/1oWXkq68NmnB2Az_InE4UoJobl8-iediP/preview" 
+                        class="pdf" allow="autoplay"></iframe>
+                    </div>
+                    <div id="Sub1Pract" style="display: none;">
+                        <h1>Practical</h1>    
+                        <iframe src="https://drive.google.com/file/d/16-M96UF5EPownVH9satd40oKOraaIlxQ/preview" 
+                        class="pdf" allow="autoplay"></iframe>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div id="Sub2">
-            <div id="Sub2Syllabus">
-                <h1>Sub2 Syllabus</h1>
-                <input onclick="ShowHideDiv(this)" type="button" value="Sub2Theory" />
-                <input onclick="ShowHideDiv(this)" type="button" value="Sub2Pract" />
-                <input onclick="ShowHideDiv(this)" type="button" value="Hide" />
-                
-                <div id="Sub2Theory" style="display: none;">
-                    <h1>Sub2 Theory</h1>    
-                    <iframe src="Sub2TheoryLink"  width="640" height="480" allow="autoplay"></iframe>
-                </div>
-                <div id="Sub2Pract" style="display: none;">
-                    <h1>Sub2 Practical</h1>    
-                    <iframe src="Sub2PractLink" width="640" height="480" allow="autoplay"></iframe>
-                </div>
-            </div>
-        </div>
-
-        <div id="Sub3">
-            <div id="Sub3Syllabus">
-                <h1>Sub3 Syllabus</h1>
-                <input onclick="ShowHideDiv(this)" type="button" value="Sub3Theory" />
-                <input onclick="ShowHideDiv(this)" type="button" value="Sub3Pract" />
-                <input onclick="ShowHideDiv(this)" type="button" value="Hide" />
-                
-                <div id="Sub3Theory" style="display: none;">
-                    <h1>Sub3 Theory</h1>    
-                    <iframe src="Sub3TheoryLink"  width="640" height="480" allow="autoplay"></iframe>
-                </div>
-                <div id="Sub3Pract" style="display: none;">
-                    <h1>Sub3 Practical</h1>    
-                    <iframe src="Sub3PractLink" width="640" height="480" allow="autoplay"></iframe>
+            <br>
+            <div id="Sub2" class="card">
+                <div id="Sub2Syllabus">
+                    <h1>Sub2 Syllabus</h1>
+                    <button onclick="ShowHideDiv(this)" value="Sub2Theory">Theory</button>
+                    <button onclick="ShowHideDiv(this)" value="Sub2Pract">Practical</button>
+                    <button onclick="ShowHideDiv(this)" value="Hide">Hide</button>
+                    
+                    <div id="Sub2Theory" style="display: none;">
+                        <h1>Theory</h1>    
+                        <iframe src="https://drive.google.com/file/d/1VQPEu3vLMhCz2VTAst1YOnEeiyCeGeek/preview" 
+                        class="pdf" allow="autoplay"></iframe>
+                    </div>
+                    <div id="Sub2Pract" style="display: none;">
+                        <h1>Practical</h1>    
+                        <iframe src="Sub2PractLink" 
+                        class="pdf" allow="autoplay"></iframe>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div id="Sub4">
-            <div id="Sub4Syllabus">
-                <h1>Sub4 Syllabus</h1>
-                <input onclick="ShowHideDiv(this)" type="button" value="Sub4Theory" />
-                <input onclick="ShowHideDiv(this)" type="button" value="Sub4Pract" />
-                <input onclick="ShowHideDiv(this)" type="button" value="Hide" />
-                
-                <div id="Sub4Theory" style="display: none;">
-                    <h1>Sub4 Theory</h1>    
-                    <iframe src="Sub4TheoryLink"  width="640" height="480" allow="autoplay"></iframe>
-                </div>
-                <div id="Sub4Pract" style="display: none;">
-                    <h1>Sub4 Practical</h1>    
-                    <iframe src="Sub4PractLink" width="640" height="480" allow="autoplay"></iframe>
-                </div>
-            </div>
-        </div>
-
-        <div id="Sub5">
-            <div id="Sub5Syllabus">
-                <h1>Sub5 Syllabus</h1>
-                <input onclick="ShowHideDiv(this)" type="button" value="Sub5Theory" />
-                <input onclick="ShowHideDiv(this)" type="button" value="Sub5Pract" />
-                <input onclick="ShowHideDiv(this)" type="button" value="Hide" />
-                
-                <div id="Sub5Theory" style="display: none;">
-                    <h1>Sub5 Theory</h1>    
-                    <iframe src="Sub5TheoryLink"  width="640" height="480" allow="autoplay"></iframe>
-                </div>
-                <div id="Sub5Pract" style="display: none;">
-                    <h1>Sub5 Practical</h1>    
-                    <iframe src="Sub5PractLink" width="640" height="480" allow="autoplay"></iframe>
+            <br>
+            <div id="Sub3" class="card">
+                <div id="Sub3Syllabus">
+                    <h1>Sub3 Syllabus</h1>
+                    <button onclick="ShowHideDiv(this)" value="Sub3Theory">Theory</button>
+                    <button onclick="ShowHideDiv(this)" value="Sub3Pract">Practical</button>
+                    <button onclick="ShowHideDiv(this)" value="Hide">Hide</button>
+                    
+                    <div id="Sub3Theory" style="display: none;">
+                        <h1>Theory</h1>    
+                        <iframe src="Sub3TheoryLink"  
+                        class="pdf" allow="autoplay"></iframe>
+                    </div>
+                    <div id="Sub3Pract" style="display: none;">
+                        <h1>Practical</h1>    
+                        <iframe src="Sub3PractLink" 
+                        class="pdf" allow="autoplay"></iframe>
+                    </div>
                 </div>
             </div>
+            <br>
+            <div id="Sub4" class="card">
+                <div id="Sub4Syllabus">
+                    <h1>Sub4 Syllabus</h1>
+                    <button onclick="ShowHideDiv(this)" value="Sub4Theory">Theory</button>
+                    <button onclick="ShowHideDiv(this)" value="Sub4Pract">Practical</button>
+                    <button onclick="ShowHideDiv(this)" value="Hide">Hide</button>
+                    
+                    <div id="Sub4Theory" style="display: none;">
+                        <h1>Theory</h1>    
+                        <iframe src="Sub4TheoryLink"  
+                        class="pdf" allow="autoplay"></iframe>
+                    </div>
+                    <div id="Sub4Pract" style="display: none;">
+                        <h1>Practical</h1>    
+                        <iframe src="Sub4PractLink" 
+                        class="pdf" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div id="Sub5"  class="card">
+                <div id="Sub5Syllabus">
+                    <h1>Sub5 Syllabus</h1>
+                    <button onclick="ShowHideDiv(this)" value="Sub5Theory">Theory</button>
+                    <button onclick="ShowHideDiv(this)" value="Sub5Pract">Practical</button>
+                    <button onclick="ShowHideDiv(this)" value="Hide">Hide</button>
+                    
+                    <div id="Sub5Theory" style="display: none;">
+                        <h1>Theory</h1>    
+                        <iframe src="Sub5TheoryLink"  
+                        class="pdf" allow="autoplay"></iframe>
+                    </div>
+                    <div id="Sub5Pract" style="display: none;">
+                        <h1>Practical</h1>    
+                        <iframe src="Sub5PractLink" 
+                        class="pdf" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        <br>
         </div>
+        <!--Right Column-->
+        <div class="rightcolumn">
+            <!--About Me-->
+            <iframe class ="responsive-right-card" src="../assets/about_me.html"></iframe>
+            <iframe class ="responsive-right-card" style="height: 70%;" src="../assets/filler.html"></iframe>
+        </div>
+    </div>
+        <!--Footer-->
+        <iframe class="responsive-footer" src="../assets/connect.html"></iframe>     
 
-        </center>
     </body>
 </html>
 
