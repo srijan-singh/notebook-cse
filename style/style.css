@@ -79,6 +79,7 @@
   }
   
   /* Create two unequal columns that floats next to each other */
+  
   /* Left column */
   .leftcolumn {   
     float: left;
@@ -119,20 +120,17 @@
   /* Footer */
   .footer {
     padding: 30px;
-    text-align: center;
-    background: #4285F4;
-    color: white;
     border-radius: 100px;
   }
 
   .responsive-footer{
     border:none; 
     width:100%;
-    height: 27%; 
+    height: 28%; 
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media only screen and (max-width: 640px){
+  @media only screen and (max-width: 721px){
 
     .header h1{
       font-size: 28px;
