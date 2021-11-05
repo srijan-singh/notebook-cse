@@ -3,17 +3,17 @@
         <title>
             Semester 6
         </title>
-        <link rel="icon" type="image/png" href="../resources/favicon.png"/>
+        <link rel="icon" type="image/png" href="../../../resources/favicon.png"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../style/style.css">
-        <link rel="stylesheet" href="../style/button.css">
-        <script src="../script/script.js"></script>
+        <link rel="stylesheet" href="../../../style/style.css">
+        <link rel="stylesheet" href="../../../style/button.css">
+        <script src="../../../script/script.js"></script>
     </head>
     <body>
 
         <!--Header-->
-      <iframe class="responsive-header" src="../assets/header.html"></iframe>
-      <iframe class="responsive-nav-bar" src="../assets/nav_bar.html"></iframe>
+      <iframe class="responsive-header" src="../../header.html"></iframe>
+      <iframe class="responsive-nav-bar" src="../../nav_bar.html"></iframe>
 
       <div class="row">
         <div class="leftcolumn">
@@ -115,17 +115,36 @@
                     </div>
                 </div>
             </div>
+            <br>
+            <div id="Sub6"  class="card">
+                <div id="Sub6Syllabus">
+                    <h1>Project</h1>
+                    <button onclick="ShowHideDiv(this)" value="Sub6Theory">Theory</button>
+                    <button onclick="ShowHideDiv(this)" value="Hide">Hide</button>
+                    
+                    <div id="Sub6Theory" style="display: none;">
+                        <h1>Guidelines</h1>    
+                        <iframe src="https://drive.google.com/file/d/1-ovfm17zTBAteQ4WxuQGJ0_jpWLAFsI0/preview"
+                        class="pdf" allow="autoplay"></iframe>
+                    </div>
+                    <div id="Sub6Pract" style="display: none;">
+                        <h1>Practical</h1>    
+                        <iframe src="Sub6PractLink" 
+                        class="pdf" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
         <br>
         </div>
         <!--Right Column-->
         <div class="rightcolumn">
             <!--About Me-->
-            <iframe class ="responsive-right-card" src="../assets/about_me.html"></iframe>
-            <iframe class ="responsive-right-card" style="height: 70%;" src="../assets/filler.html"></iframe>
+            <iframe class ="responsive-right-card" src="../../about_me.html"></iframe>
+            <iframe class ="responsive-right-card" style="height: 70%;" src="../../filler.html"></iframe>
         </div>
     </div>
         <!--Footer-->
-        <iframe class="responsive-footer" src="../assets/connect.html"></iframe>     
+        <iframe class="responsive-footer" src="../../connect.html"></iframe>     
 
     </body>
 </html>
