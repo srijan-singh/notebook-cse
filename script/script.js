@@ -32,4 +32,7 @@ function ShowHideDiv(getCode) {
 
     var Sub6Pract = document.getElementById("Sub6Theory");
     Sub6Pract.style.display = getCode.value == "Sub6Theory" ? "block" : "none";
+
+    var Sub7Pract = document.getElementById("Sub7Theory");
+    Sub7Pract.style.display = getCode.value == "Sub7Theory" ? "block" : "none";
 }
